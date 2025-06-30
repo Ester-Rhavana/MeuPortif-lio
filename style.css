@@ -218,7 +218,11 @@
     
         
     }
-
+    #meuport ul li a {
+    text-decoration: none;
+    color: #3498db;
+  }
+    
      /* RODAPÉ*/
     footer {
       background-color: #f3e885;
