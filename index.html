@@ -4,27 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Minha Página</title>
+  <!-- Linkando o style e importando fontes externas do Google. -->
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <header>
+  <header>   <!-- No header está o menu com links para cada parte do site. -->
     <nav>
-      
       <ul>
-        <li><a href="#">Inicío</a></li>
-        <li><a href="#">Formação</a></li>
+        <li><a href="#sobremim">Inicío</a></li>
+        <li><a href="#minhaform">Formação</a></li>
         <li><a href="#meuportf">Portfólio</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
 
+  <!-- Conteúdo principal dividido em 4 seções: Sobre, Formação, Portfólio e Contato -->
   <main>
-   <section class="sec" id="sobremim">
+   <section class="sec" id="sobremim">  <!-- Sobre mim: apresentação pessoal -->
     <div id="textosobre">
         <h1 class="title">Sobre Mim ❤️ </h1>
         <p>
@@ -37,11 +37,11 @@
         </p>
     </div>
     <div>
-    <img src="Minhafoto.jpeg" alt="" id="minhafoto">
+    <img src="Minhafoto.jpeg" alt="" id="minhafoto">  <!-- Minha foto pessoal -->
     </div>
    </section>
    
-   <section class="sec" id="minhaform">
+   <section class="sec" id="minhaform">     <!-- Formação: descrição dos estudos e habilidades -->
     <div id="minhaformacao">
     <h1 class="title">Minha Formação 👩🏽‍🎓</h1>
     <p>
@@ -56,16 +56,16 @@
     </p>
     </div>
     <div>
-      <img src="totoro.png" alt="" id="totoro">
+      <img src="totoro.png" alt="" id="totoro"> <!-- Imagem do Totoro para layout -->
+    <div id="minhaformacao">
     </div>
     </section>
-    <section class="sec" id="meuportf">
+    <section class="sec" id="meuportf">  <!-- Portfólio: links para projetos no GitHub -->
        <div id="meuport">
         <h1 class="title">Meu Portfólio</h1>
         <p>Aqui está o link de dois projetos que fiz da disciplina de Lógica de Programação na faculdade!</p>
-       
-        <ul>
-          <li><a href="https://github.com/Ester-Rhavana/ProjetoSimplesPython.git" target="_blank">Projeto 1</a></li>
+        <ul> <!-- Projeto 1 e 2-->
+          <li><a href="https://github.com/Ester-Rhavana/ProjetoSimplesPython.git" target="_blank">Projeto 1</a></li> 
           <li><a href="https://github.com/Ester-Rhavana/ProjetoSimplesPython2.git" target="_blank">Projeto 2</a></li>
        </ul>
         </div>
@@ -73,7 +73,7 @@
           <img src="gif.gif" alt="" id="totoro">
         </div>
     </section>
-    <section class="sec" id="contato">
+    <section class="sec" id="contato"> <!-- Parte do formulário de contato, com as informações mais relevantes, porém não funcional. -->
       <div id="form">
         <h1 class="title">Contato</h1>
         <form action="#" method="post">
@@ -90,7 +90,7 @@
   </main>
 
   <footer>
-    &copy; 2025 - Todos os direitos reservados - Ester Reges Silveira ❤️
+    &copy; 2025 - Todos os direitos reservados - Ester Reges Silveira ❤️ <!-- Rodapé simples com meu nome. -->
   </footer>
 
 </body>
